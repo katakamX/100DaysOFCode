@@ -4,3 +4,6 @@ python rounds off the number to its lowest whole form
 
 string concat can be done using " + " string
 
+check strings.py for more info 
+
+
