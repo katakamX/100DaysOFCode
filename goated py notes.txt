@@ -1,3 +1,6 @@
 python will take input as a string by default 
 
 python rounds off the number to its lowest whole form
+
+string concat can be done using " + " string
+
