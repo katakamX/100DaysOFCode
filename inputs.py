@@ -1,0 +1,6 @@
+print("enter first nuymver")
+a = input()
+print("enter second umber")
+b = input()
+print(int(a)+int(b))
+print(a+"\n     "+b)
