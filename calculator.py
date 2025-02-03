@@ -1,77 +1,66 @@
 def get_numbers():
     numbers = []
-    print("keep entering your numbers or enter \"finished\" when done with entering your numbers")
+    print("Keep entering your numbers or enter \"finished\" when done.")
     while True:
-        user_input= input("enter:").strip()
+        user_input = input("Enter: ").strip()
         
         if user_input.lower() == 'finished':
             break
         try:
-            
             number = float(user_input)
             numbers.append(number)
-        
         except ValueError:
-            print("invalid input")
+            print("Invalid input, please enter a number.")
             
     return numbers
         
 def calculator():
+    print("Calculator Program")
+    print("1: Addition")
+    print("2: Subtraction")
+    print("3: Division")
+    print("4: Multiplication")
 
-    print("Calculator Prog" )
-    print("enter 1 for Addition")
-    print("enter 2 for substraction")
-    print("enter 3 for division")
-    print("enter 4 for multiplication")
-    
     while True:
-        choice = input("enter the option")
+        choice = input("Enter the option: ").strip()
         
         if choice in ['1', '2', '3', '4']:
             numbers = get_numbers()
             
             if len(numbers) < 2:
-                print("enter atleast 2 numbers")
-                
+                print("Enter at least 2 numbers.")
                 continue
-            if choice == '1':
-                result =  sum(numbers)
-                print("the result is: " , result)
-                            
-            elif choice == '2':
+            
+            if choice == '1':  # Addition
+                result = sum(numbers)
+
+            elif choice == '2':  # Subtraction
                 result = numbers[0]
                 for num in numbers[1:]:
-                    result = result-num
-                    print("the result is :", result)
-                    
-            elif choice == '3':
+                    result -= num
+
+            elif choice == '3':  # Division
                 result = numbers[0]
                 for num in numbers[1:]:
-                    result = result * num
-                    print("the result is:", result)
-                    
-            elif choice == '4':
-                result = numbers[0]
-                for num in numbers[1:]:
-                    result = result / num
-                    print("result is: ", result)
-                    
+                    if num == 0:
+                        print("Error: Division by zero is not allowed.")
+                        break
+                    result /= num
+
+            elif choice == '4':  # Multiplication
+                result = 1
+                for num in numbers:
+                    result *= num
+            
+            print("The result is:", result)
+
         else: 
-            print("invalid response")
-            
-        next_calc = input("do you wish to perform another calculation? type yes/no")
-             
-        if next_calc == 'yes':
-            calculator()
-            
-        else:
-            print("goodbye")
-            break
+            print("Invalid response. Please enter a valid option.")
+
+        next_calc = input("Do you wish to perform another calculation? (yes/no): ").strip().lower()
         
+        if next_calc != 'yes':
+            print("Goodbye!")
+            break
 
 calculator()
-            
-                
-                       
-    
-        
