@@ -9,7 +9,7 @@
 
 # print(type(a)) \   
 
-name = "nin hesaru nigga"
+name = "nin hesaru nigga "
 i = 1
 for n in name:
    
