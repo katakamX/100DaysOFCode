@@ -31,15 +31,15 @@ def calculator():
                 print("Enter at least 2 numbers.")
                 continue
             
-            if choice == '1':  # Addition
+            if choice == '1':  
                 result = sum(numbers)
 
-            elif choice == '2':  # Subtraction
+            elif choice == '2':  
                 result = numbers[0]
                 for num in numbers[1:]:
                     result -= num
 
-            elif choice == '3':  # Division
+            elif choice == '3':  
                 result = numbers[0]
                 for num in numbers[1:]:
                     if num == 0:
@@ -47,7 +47,7 @@ def calculator():
                         break
                     result /= num
 
-            elif choice == '4':  # Multiplication
+            elif choice == '4':  
                 result = 1
                 for num in numbers:
                     result *= num

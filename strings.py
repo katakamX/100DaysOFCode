@@ -9,10 +9,16 @@
 
 # print(type(a)) \   
 
-name = "nin hesaru nigga "
-i = 1
-for n in name:
+
+# name = "nin hesaru nigga "
+# i = 1
+# for n in name:
    
-    print(name[0:i])
-    i = i + 1
-    
+    # print(name[0:i])
+    # i = i + 1
+
+a = "aditya katakam"
+
+print(a[0:4])
+print(a[1:8])
+   
