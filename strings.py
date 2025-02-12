@@ -57,3 +57,11 @@ strring = ""
 for d in list:
     strring = strring + str(d)
 print(int(strring))
+
+f = "harry"
+print(len(f))
+g = ""
+for n in reversed(f):
+    g = g+n
+    
+print(g)
