@@ -13,3 +13,5 @@ print(a.endswith("!"))
 print(b.index("d"))#raises an exception if the word youre not searching 
 print(b.find("diddy"))
 print(b.isalnum())
+print(a.isalnum())
+
