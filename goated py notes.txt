@@ -6,4 +6,6 @@ string concat can be done using " + " string
 
 check strings.py for more info 
 
+strings are immuatable, for example when we use string_name.lower() method, the existing string is not changed but a whole new string is created.
 
+strings are immutable, i.e stored strings cannot be edited or changed, but a new modified string will be created.

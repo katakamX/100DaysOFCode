@@ -6,9 +6,16 @@ while a > 0:
     print("that numebr is greater than 0")
    ''' 
    
-i = int(input("enterr the value"))
+'''i = int(input("enterr the value"))
 while i<38:
     i = int(input("enetr the number"))
     print(i)
     
-print("the num youve entered is greater than 38, ie", i)
+print("the num youve entered is greater than 38, ie", i) '''
+
+count = 1
+while count > 0:
+    print(count+1)
+
+
+
