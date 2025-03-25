@@ -4,7 +4,7 @@ def gmean(a,b):
     print(mean)
 gmean(a,b)
 
-def isgreater(a,b):
+'''def isgreater(a,b):
     if(a<b):
         print("a is greater")
     elif(b>a):
@@ -12,6 +12,11 @@ def isgreater(a,b):
         
 isgreater(a,b)
 
-def nameprint(fname,mname = "aditya" , lname = "katakam" ):
+#def nameprint(fname,mname = "aditya" , lname = "katakam" ):
     print(fname , mname, lname)
-nameprint("aditya", "katakam")
+#nameprint("aditya", "katakam")'''
+
+def average(a,b ,c=1):
+    print("the average is " , (a+b+c)/2)
+
+average(5,6)
