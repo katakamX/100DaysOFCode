@@ -11,3 +11,7 @@ def isgreater(a,b):
         print("b is the greater number of the two")
         
 isgreater(a,b)
+
+def nameprint(fname,mname = "aditya" , lname = "katakam" ):
+    print(fname , mname, lname)
+nameprint("aditya", "katakam")
