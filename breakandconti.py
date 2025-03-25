@@ -1,9 +1,5 @@
-for i in range(11):
-    if(i==11):
-        print("nigga")
+for i in range(0,12):
+    print(" 5 x " , i , " = ", 5*i)
+    if(i==10):
         break
-        
-    else:
-        print("5 x " , i , " = " , 5*i)
-    
-print("exited the loop")    
+print("came out of loop")
