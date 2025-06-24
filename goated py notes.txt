@@ -9,3 +9,6 @@ check strings.py for more info
 strings are immuatable, for example when we use string_name.lower() method, the existing string is not changed but a whole new string is created.
 
 strings are immutable, i.e stored strings cannot be edited or changed, but a new modified string will be created.
+
+in functions, if already arguements are passed in it, say func(a=1, b=2):  , it takes the values mentioned.
+if you call the same funcion using other values, say func(2,3) , then it ignores the defaul passed values and considers the second set of values passed when the function is called
