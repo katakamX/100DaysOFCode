@@ -7,4 +7,4 @@ def name(fname="aditya", mname="", lname="katakam"):
     print("your name is = ", fname,mname,lname)
     
 name(mname= "putty")
-name("Aditya")
+# name("Aditya")
