@@ -13,13 +13,8 @@ def average(*numbers):
     sum = 0
     for i in numbers:
         sum = sum + i
-        #print("the average is", sum/len(numbers))
-    return sum / len(numbers)
+    return sum / len(numbers)  # Return the average
 
-c = average(5,6,7)
+c = average(1,2,3)   
 print(c)
-a = 5
-b = 6   
-c = 7
-d = average(a, b, c)
-print(d)
+
