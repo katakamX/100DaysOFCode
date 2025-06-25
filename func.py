@@ -15,5 +15,11 @@ def average(*numbers):
         sum = sum + i
         #print("the average is", sum/len(numbers))
     return sum / len(numbers)
+
 c = average(5,6,7)
 print(c)
+a = 5
+b = 6   
+c = 7
+d = average(a, b, c)
+print(d)
