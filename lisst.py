@@ -3,6 +3,3 @@ print(l)
 print(type(l))
 print(type(l[0]))
 print(l[0] + l[1])
-qewe
-weeqe
-print(l[0] + l[1] + l[2])
