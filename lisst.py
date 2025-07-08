@@ -12,4 +12,5 @@ print(type(l[3]))'''
 # else:
 #     print("No", l[2], "is not in the list")
 
-print(l[0:4])
+print(l[0:6])
+print(l[1:6:2])
