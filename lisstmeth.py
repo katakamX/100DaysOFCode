@@ -9,6 +9,3 @@ print(l)
 m = [17, 18, 19, 20]
 l.extend(m)
 print(l)
-l.remove(3)
-print(l)
-print(l.index(10))
